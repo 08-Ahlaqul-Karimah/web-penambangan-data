@@ -198,7 +198,7 @@ with implementation:
 #         accuracy_knn
 #         acc_knn
 #         y_predict = knn.predict(hinput)
-#         st.write("Hasil prediksi adalah",y_predict[0])
+#         st.write("Hasil prediksi adalah",y_predict[0]) 
         # return y_predict[0] 
 
 
