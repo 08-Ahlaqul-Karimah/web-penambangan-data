@@ -93,7 +93,7 @@ with modeling:
         from sklearn.neighbors import KNeighborsClassifier
         from sklearn.svm import SVC, LinearSVC
         from sklearn.naive_bayes import GaussianNB
-        from sklearn.preprocessing import LabelEncoder
+        from sklearn.preprocessing import LabelEncoder 
         le = LabelEncoder()
         y = le.fit_transform(y)
         gaussian = GaussianNB()
